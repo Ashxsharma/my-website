@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ayush.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="portofolio.js"></script>
+</head>
+<body>
+    <div class="back-svg"></div>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <div class="logo1">
+                    <a href="ayush.html">
+                        <img src="ash.jpg" alt="logo" />
+                    </a>
+                </div>
+                <div class="logo-text">
+                    <h1>AYUSH SHARMA</h1>
+                </div>
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li><a href="ayush.html">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-headindg text-xxl">Hello, I'm <br> Ayush Sharma</h1>
+                
+            </div>
+            <h1 class="hero-headindg text-xxl">
+             <span class="typewriter"></span>
+          </h1>
+          
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-container">
+            <h1 class="about-head">ABOUT ME</h1>
+            <p class="about-text">I am a passionate web developer with a keen interest in creating dynamic and user-friendly websites. I love to explore new technologies and continuously improve my skills. Let's connect and collaborate on exciting projects!</p>
+        </div>
+    </section>
+
+    <section class="things">
+        <div class="card-container">
+            <div class="card" onclick="this.classList.toggle('flipped')">
+                <div class="card-face card-front1"></div>
+                <div class="card-face card-back1">
+                    <div class="title">What I’ve Designed:</div>
+                    <ul>
+                        <li>Instagram Posters</li>
+                        <li>Brand Identity</li>
+                        <li>Logo Collection</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-container" style="animation-delay: 0.2s;">
+            <div class="card" onclick="this.classList.toggle('flipped')">
+                <div class="card-face card-front2"></div>
+                <div class="card-face card-back2">
+                    <div class="title">What I’ve Built:</div>
+                    <ul>
+                        <li>Better Me App</li>
+                        <li>WordPress Sites</li>
+                        <li>Personal Portfolio</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-container" style="animation-delay: 0.2s;">
+            <div class="card" onclick="this.classList.toggle('flipped')">
+                <div class="card-face card-front3"></div>
+                <div class="card-face card-back3">
+                    <div class="title">What I do:</div>
+                    <ul>
+                        <li>Create posts</li>
+                        <li>Create blogs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2 class="text-xl text-center">Get In Touch</h2>
+            <p class="text-md text-center">Let's build something cool together. Hit me up!</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 Ayush Sharma. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
